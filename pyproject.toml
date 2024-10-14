@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tesseract"
+version = "0.1.0"
+description = ""
+authors = ["alex"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytesseract = "^0.3.13"
+pillow = "^10.4.0"
+loguru = "^0.7.2"
+fastapi = "^0.115.2"
+pydantic-settings = "^2.5.2"
+uvicorn = "^0.31.1"
+python-multipart = "^0.0.12"
+gunicorn = "^23.0.0"
+orjson = "^3.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

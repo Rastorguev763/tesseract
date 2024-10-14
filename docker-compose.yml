@@ -1,0 +1,13 @@
+services:
+  tesseract:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    command: ./start.sh
+    container_name: tesseract
+    expose:
+      - "5050"
+    ports:
+      - "5050:5050"
+    env_file:
+      - .env
