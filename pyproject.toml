@@ -16,6 +16,7 @@ uvicorn = "^0.31.1"
 python-multipart = "^0.0.12"
 gunicorn = "^23.0.0"
 orjson = "^3.10.7"
+pypdf2 = "^3.0.1"
 
 
 [build-system]
